@@ -3,6 +3,11 @@ mediawiki-SimpleAdBox
 
 A simple side bar ad block extension for MediaWiki
 
+Installation
+============
+
+Copy this directory to the mediawiki/extensions directory. Rename it to SimpleAdBox, while you're at it.
+
 Usage
 =====
 
