@@ -1,0 +1,36 @@
+/**
+* Stylesheet for SimpleAdBox extension.
+*
+* This should be added to [[MediaWiki:Common.css]] page when installing this
+* extension and should not be modified. You may modify the CSS code on the
+* MediaWiki:Common.css page to adjust padding, alignment, etc.
+*
+* @file
+* @ingroup Extensions
+*/
+
+/* Pad SimpleAdBox in portlet in sidebar */
+#p-simpleadbox .pBody {
+        padding-top: 5px;
+        text-align:  center;
+}
+
+#p-simpleadbox .simpleadbox {
+	border: 1px solid #ccc;
+}
+
+/* force the display of the contents of the section */
+#p-Sponsored_by-label .body {
+        display:block !important;
+}
+
+/* Hide the arrow */
+#p-simpleadbox h3 {
+        display: block;
+}
+
+#adunit {
+    background-color: #FFF;
+    height: 240px;
+    width: 120px;
+}
